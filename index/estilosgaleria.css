@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+
+} 
+body {
+
+    background-color: rgb(219,208,178);
+    /*background-image: url(media/fondogaleria.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+}
+
+
+
+.titulo {
+        padding-top: 70px;
+    font-family: Balsamiq;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+@font-face {
+    font-family: Balsamiq;
+    src:url(fonts/BalsamiqSans-Regular.ttf);
+}
+
+.galeria {
+    /*background-color: rgb( 209,198,168);*/
+
+}
+
+.galeria img {
+	box-shadow:  0px 8px 10px -4px rgba(0,0,0,.6);
+	border-radius: 15px;
+    filter: brightness(85%);
+    animation: escalar 1.5s infinite alternate;
+}
+
+/*@keyframes escalar {
+    to {
+        transform: scale(1);
+    }
+    from {
+        transform: scale(1.10);
+    }
+}
+
+.galeria img:hover {
+
+    filter: brightness(100%);
+}*/
+
+
+.materialbox-caption{
+    font-style: italic;
+    height: 45px !important;
+    font-size: 20px;
+    color:#fff;
+}
+
+
+#imagen{ 
+    width: 512px;
+    height: 256px;
+    padding: 0px;
+    border: 10px solid #fff;
+    object-fit: contain;
+}
+
+.galeria .col {
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px){
+	.materialbox-caption{
+	width: 90%;
+       
+
+	}
+}
+
+
+@media screen and (max-width: 992px){
+	.materialbox-caption{
+	width: 70%;
+
+	}
+}
+#materialbox-overlay {
+    width: auto;
+    height: auto;
+
+
+}
+/* Adrian Rivas Escarcega  MENU DE NAVEGACION*/
+
+
+header {
+    z-index: 1;
+}
+
+
+/*-----------------------------------------*/
+/*<!---Adrian Rivas Escarcega   Today is Saturday May 16th, 2020 -->*/

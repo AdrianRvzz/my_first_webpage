@@ -1,0 +1,112 @@
+* {
+font-family: Balsamiq;
+}
+@font-face {
+	font-family: Balsamiq;
+	src:url(fonts/BalsamiqSans-Regular.ttf);
+}
+
+.navegacionprincipal {
+	width: 100%;
+	margin-top: 70px;
+	float: left;
+}
+
+.elementos{
+	width: 95%;
+	margin:auto;
+	padding-top: 15px;
+	
+
+}
+
+.aside-izquierdo, .seccion-central, .aside-derecho {
+	float: left;
+
+}
+.aside-izquierdo {
+	width: 15%;
+
+
+}
+
+.seccion-central {
+	width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+}
+
+.aside-derecho {
+	width: 15%;
+	background-color: #fffacd;
+}
+.aside-derecho div a, .aside-derecho div img {
+
+float: left;
+}
+
+
+/*section {
+	padding-bottom: 15px;
+}
+*/
+
+.img-definicion {
+	width: 100%;
+
+	border-radius: 20px;
+
+}
+
+
+.seccion-central {
+	font-family: Balsamiq;
+color: #154360;
+
+}
+.titulo-sc {
+
+font-size: 2em;
+
+padding: 5px;
+text-align:center;
+
+}
+
+.subtitulo-sc {
+	font-size: 1.5em;
+	padding: 5px;
+	text-align: center;
+}
+
+.cuerpo-sc {
+	font-size: 1em;
+	text-align: justify;
+}
+
+hr {
+	margin: 5px 0px;
+height: 2px;
+background:#000;
+}
+
+.fuente-sc {
+	padding-bottom: 15px;
+	font-style: italic;
+}
+
+.referencias-sc a  {
+color: #154360;
+text-decoration: underline;
+
+}
+
+.img-definicion {
+
+width: 150px;
+float: left;
+}
+/*-----------------------------------------*/
+/*<!---Adrian Rivas Escarcega   Today is Saturday May 16th, 2020 -->*/

@@ -1,0 +1,88 @@
+	.navegacionfooter {
+	
+
+    width: 100%;
+	background-color: #232F3E;
+	font-family: Balsamiq;		         
+			          }
+
+
+	.elementosfooter {
+	width: 95%;
+	margin:auto;
+	padding-top: 15px;
+	
+			          }
+
+
+    .aside-izquierdo-footer, .seccion-central-footer, .aside-derecho-footer {
+	float: left;
+
+                      }
+
+    .linkcontacto-footer {
+    text-decoration: none;
+    color:#fff;
+    }
+
+    .aside-izquierdo-footer {
+	width: 15%;
+	color: #fff;
+     font-size: 20px;
+        }
+
+    .seccion-central-footer {
+	width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: #fff;
+
+
+    }
+
+   .aside-derecho-footer {
+	width: 15%;
+	color: #fff;
+    }
+
+    .h2-footer {
+    	color: #000;
+    
+    }
+
+    .img-definicion-footer {
+
+    	width: 150px;
+    }
+   .logocontacto-footer {
+   	width: 22.4px;
+   	float: left;
+   }
+
+
+
+
+   .wrapper {
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+   }
+
+   .navegacionprincipal {
+    margin-bottom: 500px;
+   }
+
+   .navegacionfooter {
+   /* width: 100%; esta lo mismo arriba*/
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   }
+
+   .container {
+     min-height: 100%;
+    position: absolute;
+   }
+   /*<!---Adrian Rivas Escarcega   Today is Saturday May 16th, 2020 -->*/

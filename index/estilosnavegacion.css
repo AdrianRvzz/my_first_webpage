@@ -1,0 +1,154 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+	line-height: normal;
+}
+
+header {
+	width: 100%;
+    background: #FF9800 ;
+    height: 70px;
+   
+    position: fixed;
+
+  
+    
+}
+
+
+.ancho {
+	width: 95%;
+	height: 70px;
+	/*Color del fondo de la caja de la barra de navegacion
+	background: red;*/
+	margin: auto;
+}
+
+.logo{
+	width: 22.5%;
+	height: 70px;
+	/*Color del fondo del logo
+	background: blue;*/
+	float: left;
+    padding-top: 12px;
+    box-sizing: border-box;
+
+}
+
+.logo p a {
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+    font-family: Balsamiq;
+  
+
+}
+.eslogan {
+	width: 22.5%;
+	height: 70px;
+	float: left;
+	
+	/*padding-top: 3px;*/
+    /*padding-top: 0.3404%; posibles medidas */
+    /*padding-top: 1.702%; */
+
+	font-size: 20px;
+	font-family: Balsamiq;
+	text-align: center;
+	padding-top:19px;
+	box-sizing: border-box;
+    font-style: italic;
+    color: #fff;
+}
+
+
+@font-face {
+	font-family: Balsamiq;
+	src:url(fonts/BalsamiqSans-Regular.ttf);
+}
+
+
+
+
+.navegacion{
+    width: 55%;
+    height: 70px;
+    /*Color del fondo del menu 
+    background: olive;*/
+    float: left;
+
+    padding-top: 12px;
+    box-sizing: border-box;
+    
+
+}
+
+.navegacion ul li {
+
+
+}
+.navegacion ul li a {
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Balsamiq;
+
+}
+/* menu desplegable */
+
+
+			ul, ol {
+				list-style:none;
+			}
+			.navegacion ul  {
+				float: right;
+				background: #FF9800;
+
+			}
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				
+			    letter-spacing: 2px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background:#F8C471;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+				background:#9C640C;
+			}
+			
+			.nav li ul li {
+				position:relative;
+				background: #FF9800;
+				
+				border:  1px #fff solid;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+
+			}
+
+		
+
+			/***********************************************/
+/*<!---Adrian Rivas Escarcega   Today is Saturday May 16th, 2020 -->*/
